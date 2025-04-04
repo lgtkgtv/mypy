@@ -1,6 +1,8 @@
 ## Test App 
 
+```sh
 python chatgpt_test.py 
+```
 
 ## Installed Packages and Their Purpose
 
@@ -27,6 +29,7 @@ python chatgpt_test.py
 | `pathlib`        | File system path management      |
 | `tqdm`           | Progress bar utility             |
 
+```txt
 pip install jupyter         # includes ipykernel and other related packages. # most basic Jupyter Notebook experience.
 pip install jupyterlab      # ext-generation env, also includes ipykernel and other necessary dependencies. # file browser, terminal access, and customizable layouts.
 
@@ -42,3 +45,4 @@ jupyter lab
         jupyterlab-variableinspector: to see variable values.
         jupyterlab-code-formatter: code formatting.
         jupyterlab-lsp: language server protocol support.
+```        
